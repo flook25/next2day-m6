@@ -24,5 +24,6 @@ export async function DELETE(req: NextRequest, {params}: {
     } catch (err) {
         console.log(err);
         return NextResponse.json({error :err})
+        console.log(error)
     }
 }
